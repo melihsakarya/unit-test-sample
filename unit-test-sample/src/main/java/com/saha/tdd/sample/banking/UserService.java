@@ -7,6 +7,7 @@ public class UserService {
 	public void register(String name, String lastname, String email) {
 		System.out.println("Hello " + name + " " + lastname);
 		emailService.sendEmail(email);
+		;
 		
 	}
 
