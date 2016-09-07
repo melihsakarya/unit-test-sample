@@ -8,7 +8,7 @@
 
  
 
-	<dependencies>
+	<dependencies> 
 
 		<dependency>
 			<groupId>junit</groupId>

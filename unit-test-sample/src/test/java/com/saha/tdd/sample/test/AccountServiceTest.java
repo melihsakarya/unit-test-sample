@@ -28,6 +28,15 @@ public class AccountServiceTest {
 		
 	}
 	
+	@Test
+	public void removeZeroControlTest(){
+		AccountService accountService = new AccountService();
+		accountService.depositMoney(100);
+		accountService.withDrawMoney(-50);
+		Assert.assertEquals(accountService.getMoney(), 100);
+		
+	}
+	
 	
 	
 }

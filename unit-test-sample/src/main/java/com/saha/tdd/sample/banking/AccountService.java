@@ -2,6 +2,8 @@ package com.saha.tdd.sample.banking;
 
 public class AccountService {
 
+	public String name;
+	
 	private int money = 0;
 	
 	public void depositMoney(Integer amount) {
